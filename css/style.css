@@ -896,9 +896,6 @@ justify-content: space-between;
   position: relative;
 }
 
-.service-item-block .content {
-  margin: 24px;
-}
 
 .service-block i {
   color: #FA9370;
