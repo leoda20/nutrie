@@ -325,7 +325,7 @@ PAGE BANNER
    MENU
 ----------------------*/
 .header-padding {
-  padding: 0px 130px;
+  padding: 0px 120px;
 }
 
 .main-navigation {
@@ -545,7 +545,7 @@ justify-content: space-between;
 .main-hero {
   justify-content: center; /* Horizontally center the content */
   align-items: center; /* Vertically center the content */
-  margin-top: 120px;
+  margin-top: 100px;
   margin-bottom: 80px;
 }
 
@@ -590,12 +590,11 @@ justify-content: space-between;
   .display-4 {
     font-size: 2.5rem;
   }
-  .hero {
-    padding-top:20px;
-  }
+
   .hero-img {
     max-width: 343px;
   }
+
 }
 
 @media (max-width: 400px) {
@@ -607,6 +606,9 @@ justify-content: space-between;
     padding-top: 80px;
   }
   .icon{
+    margin-top: 40px;
+  }
+  .main-hero{
     margin-top: 40px;
   }
 }
@@ -985,11 +987,13 @@ justify-content: space-between;
 .service-item-block .content {
   color: #392F5A;
   max-width: 420px;
+  margin: 24px;
 }
 
 .service-item-block-op .content {
   color: #392F5A;
   max-width: 420px;
+  margin: 24px;
 }
 
 
