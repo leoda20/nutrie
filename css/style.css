@@ -948,6 +948,20 @@ justify-content: space-between;
   flex-wrap: wrap;
 }
 
+.service-item-block-op {
+  padding-left: 40;
+  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  margin-bottom: 120px;
+  background: transparent;
+  border-radius: 20px;
+  align-items: center; /* Vertically center the content */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+
 .column-services{
   flex-direction: column;
   align-items: center;
