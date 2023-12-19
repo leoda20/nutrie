@@ -833,6 +833,9 @@ justify-content: space-between;
   .service-item-block .image {
     margin: 24px;
   }
+  .service-item-block-op .image {
+    margin: 24px;
+  }
   .service-img {
    /*max-width: 100%;
     display: flex;
@@ -967,7 +970,13 @@ justify-content: space-between;
   align-items: center;
   justify-content: center;
 }
+
 .service-item-block i {
+  color: #392F5A;
+  margin-bottom: 10px;
+}
+
+.service-item-block-op i {
   color: #392F5A;
   margin-bottom: 10px;
 }
@@ -976,8 +985,11 @@ justify-content: space-between;
 .service-item-block .content {
   color: #392F5A;
   max-width: 420px;
-  
- 
+}
+
+.service-item-block-op .content {
+  color: #392F5A;
+  max-width: 420px;
 }
 
 
