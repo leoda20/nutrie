@@ -526,7 +526,7 @@ PAGE BANNER
 }
 
 .banner {
-  background: #FCC3AF;
+  background: #FA9370;
   padding-bottom: 120px;
   justify-content: center; /* Horizontally center the content */
   align-items: center; /* Vertically center the content */
@@ -576,12 +576,11 @@ justify-content: space-between;
 
 
 .banner-img {
-  padding-top: 0px;
+  margin-bottom: 40px;
 }
 
 .blob{
   width: 100%;
-
 }
 
 
@@ -727,47 +726,27 @@ justify-content: space-between;
   background: rgba(255, 255, 255, 0.5);
 }
 
-.video-section {
-  position: relative;
-}
-
-.video-section:before {
-  position: absolute;
-  content: "";
-  left: 0px;
-  top: 0px;
-  width: 50%;
-  height: 50%;
-}
-
 .section-steps{
   background-color: #392F5A;
-  }
-.video-section .video-play {
-  position: absolute;
-  content: "";
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  margin: auto;
-  bottom: 0px;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  cursor: pointer;
+  display: flex;
+  padding-top: 120px;
 }
 
-.video-section .video-play i {
-  font-size: 40px;
-  width: 120px;
-  height: 120px;
-  background: #796eff;
-  color: #fff;
-  border-radius: 100%;
-  display: inline-block;
-  text-align: center;
-  padding-top: 40px;
+.heading-steps{
+  text-align: right;
 }
+
+.content-steps{
+ justify-content: center;
+  padding-top: 80px;
+}
+
+.image-steps{
+  align-self: center;
+}
+
+
 
 .cta-2 {
   background-color: #392F5A;
@@ -839,9 +818,6 @@ justify-content: space-between;
     margin: 24px;
   }
   .service-img {
-   /*max-width: 100%;
-    display: flex;
-    margin: 24px;*/
     display: none;
 
   }
