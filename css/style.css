@@ -1393,4 +1393,36 @@ CONTACT PAGE
   opacity: 1;
 }
 
+.success{
+  height: 720px;
+  justify-items: center;
+  border: 1px #d0d0d0;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.div-success{
+  margin: 0 auto;
+}
+.success-content {
+  margin-top: 10px;
+  width: 360px;
+}
+
+.img-success{
+  width: 360px;
+}
+.success-content a {
+  color: #0D0920;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.success-content a:hover {
+  color: #FA9370;
+  text-decoration: underline;
+  font-weight: 700;
+}
 /*# sourceMappingURL=maps/style.css.map */
