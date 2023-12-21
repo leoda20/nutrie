@@ -1269,16 +1269,18 @@ CONTACT PAGE
 }
 
 .form-control {
-  border: 1px solid rgba(0, 0, 0, 0.04);
+  border: 1px solid #d0d0d0;
   box-shadow: 12px 7px 90px 0 rgba(110, 123, 131, 0.1);
   background: #fff;
   height: 60px;
   padding-left: 15px;
+  border-radius: 10px;
 }
 
 .form-control:focus, .form-control:hover {
   border-color: #FA9370;
   box-shadow: none;
+  border-radius: 10px;
 }
 
 /* --------------
