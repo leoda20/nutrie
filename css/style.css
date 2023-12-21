@@ -321,6 +321,10 @@ PAGE BANNER
   height: 45px;
 }
 
+.form-div{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 /*-------------------
    MENU
 ----------------------*/
@@ -331,6 +335,10 @@ PAGE BANNER
 .main-navigation {
   z-index: 9999;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-navigation .btn {
@@ -545,9 +553,29 @@ justify-content: space-between;
 .main-hero {
   justify-content: center; /* Horizontally center the content */
   align-items: center; /* Vertically center the content */
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: 80px;
 }
+
+.icon-hero{
+  width: 32px;
+  color: #B5B2C2;
+}
+
+.bullet-hero{
+  margin-top: 20px;
+}
+
+.main-hero p{
+  margin-top: 4px;
+  margin-bottom: 4px;
+  
+}
+
+.main-hero .btn{
+  margin-top: 20px;
+}
+
 
 .hero-img {
   width: 100%;
@@ -560,9 +588,8 @@ justify-content: space-between;
   align-items: center; /* Vertically center the content */
   }
 
-.main-banner .icon{
-  padding-bottom: 20px;
-}
+
+
 
 .main-banner .display-4 {
   margin-top: 45px;
@@ -608,7 +635,7 @@ justify-content: space-between;
     margin-top: 40px;
   }
   .main-hero{
-    margin-top: 40px;
+    margin-top: 20px;
   }
 }
 
@@ -1425,4 +1452,39 @@ CONTACT PAGE
   text-decoration: underline;
   font-weight: 700;
 }
+
+input[type="radio"] {
+  display: none;
+}
+
+/* Customize the style of the custom radio button */
+input[type="radio"] + label {
+  position: relative;
+  padding-left: 25px; /* Space for custom button */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* Style the custom button */
+input[type="radio"] + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  border: 2px solid #392F5A; /* Customize border color */
+  border-radius: 50%; /* For a circular shape */
+}
+
+/* Change the appearance of the custom button when checked */
+input[type="radio"]:checked + label:before {
+  background-color: #392F5A; /* Customize background color when checked */
+}
+
+
+
+
 /*# sourceMappingURL=maps/style.css.map */
