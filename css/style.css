@@ -573,6 +573,7 @@ PAGE BANNER
   justify-content: center; /* Horizontally center the content */
   align-items: center; /* Vertically center the content */
   padding-top: 80px;
+  margin-top: -2px;
 }
 
 
