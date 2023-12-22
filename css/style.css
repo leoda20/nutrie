@@ -325,6 +325,33 @@ PAGE BANNER
   padding-bottom: 20px;
   padding-top: 20px;
 }
+
+.checkboxes{
+  background-color: #F5F5F7;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.checkboxes label{
+  margin-top: 0.5rem;
+}
+
+.checkboxes label{
+  width: 90%;
+}
+
+.checkmark {
+  border-radius: 10px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  
+}
+
 /*-------------------
    MENU
 ----------------------*/
