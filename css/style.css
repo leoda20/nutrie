@@ -558,8 +558,9 @@ justify-content: space-between;
 }
 
 .icon-hero{
-  width: 32px;
+  width: 28px;
   color: #B5B2C2;
+  margin-right: 8px;
 }
 
 .bullet-hero{
@@ -764,8 +765,12 @@ justify-content: space-between;
   text-align: right;
 }
 
+.heading-steps p{
+  margin-bottom: 40px;
+}
+
 .content-steps{
- justify-content: center;
+ 
   padding-top: 80px;
 }
 
