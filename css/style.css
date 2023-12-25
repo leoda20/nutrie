@@ -583,6 +583,16 @@ align-items: center;
 justify-content: space-between;
 }
 
+.hero-users{
+  margin-right: 4px;
+  padding-left: 16px;
+  width: 160px;
+  height: 100%;
+}
+
+.users-content{
+  margin-top: 20px;
+}
 
 .text-banner{
   padding-bottom: 80px;
