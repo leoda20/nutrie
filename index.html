@@ -11,6 +11,12 @@
     gtag('js', new Date());
 
   gtag('config', 'G-9C1KWV713N');
+  function enviarEvento() {
+        gtag('event', 'CTA', {
+            'event_category': 'CTA',
+            'event_label': 'CTA'
+        });
+    }
 </script>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -171,7 +177,7 @@
                         </div>
                     </div>
                     
-                    <a href="form.html" class="btn btn-main-3">
+                    <a id="CTA" onclick="CTA()" href="form.html" class="btn btn-main-3">
                         Criar plano alimentar <i class="ti-angle-double-right ml-2"></i>
                     </a>
 
